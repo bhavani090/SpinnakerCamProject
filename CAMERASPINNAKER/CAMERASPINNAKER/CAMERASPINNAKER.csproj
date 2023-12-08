@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="SpinnakerNET_v140">
+      <HintPath>..\..\..\..\..\..\Program Files\FLIR Systems\Spinnaker\bin64\vs2015\SpinnakerNET_v140.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
